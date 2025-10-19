@@ -1,37 +1,44 @@
-# Rock-Paper-Scissors Game in C++
+# Math Quiz Game in C++
 
-A simple console-based **Rock-Paper-Scissors** game written in C++. Play multiple rounds against the computer with colorful outputs, round stats, and final winner calculation.
+A console-based **Math Quiz Game** in C++. Test your arithmetic skills with customizable quizzes, including addition, subtraction, multiplication, division, or a mix. Supports different difficulty levels and provides instant feedback on answers.
 
 ## Features
 
-- Play 1 to 10 rounds per game.
-- Tracks wins for Player, Computer, and Draws.
-- Color-coded console output for round results.
-- Replay option to start a new game anytime.
-- Displays final game stats in a clean format.
+- Choose number of questions (1–10 per quiz).
+- Select operation type: Add, Subtract, Multiply, Divide, or Mixed.
+- Choose difficulty level: Easy, Medium, Hard, or Mixed.
+- Real-time feedback on answers (Right/Wrong).
+- Color-coded console output based on answer correctness.
+- Displays final quiz stats and pass/fail result.
+- Option to replay the game multiple times.
 
 ## How to Play
 
-1. Compile the program with a C++ compiler (e.g., g++, Visual Studio).
+1. Compile the program using a C++ compiler (e.g., g++, Visual Studio).
 2. Run the executable.
-3. Enter the number of rounds (1–10).
-4. Choose your move each round:
-   - `1` for Stone
-   - `2` for Paper
-   - `3` for Scissors
-5. Check round results and final winner.
-6. Optionally play again.
+3. Choose the number of questions, difficulty level, and operation type.
+4. Answer each arithmetic question.
+5. Review your results and see if you passed.
+6. Optionally, play again.
 
 ## Example
-How Many Round 1 to 10
-3
 
-Your Choice: [1]:Stone, [2]:Paper, [3]:Scissors? 1
-Round [1] begin
-Player 1 Choice : Stone
-Computer Choice : Scissors
-Round Winner : Player
+How Many Question Do You Want? 3
+Enter Question level [1] Easy, [2] Medium, [3] Hard, [4] Mix ? 1
+Enter Operation Type [1] Add, [2] Sub, [3] Mul, [4] Div, [5] Mix ? 5
 
+Question [1/3]
+8
+2 +
+Your Answer: 10
+Right Answer :-)
+
+...
+
+final Result is Pass :-)
+
+markdown
+نسخ الكود
 
 ## Requirements
 
@@ -40,4 +47,4 @@ Round Winner : Player
 
 ## License
 
-This project is open source and free to use.
+This project is open-source and free to use.
