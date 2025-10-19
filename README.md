@@ -27,8 +27,8 @@ Enter Question level [1] Easy, [2] Medium, [3] Hard, [4] Mix ? 1
 Enter Operation Type [1] Add, [2] Sub, [3] Mul, [4] Div, [5] Mix ? 5
 
 Question [1/3]
-8
-2 +
+8 <\b>
+2 + <\b>
 
 Your Answer: 10
 Right Answer :-)
