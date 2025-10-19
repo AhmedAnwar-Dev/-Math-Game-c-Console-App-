@@ -23,17 +23,22 @@ A console-based **Math Quiz Game** in C++. Test your arithmetic skills with cust
 
 ## Example
 How Many Question Do You Want? 3
+
 Enter Question level [1] Easy, [2] Medium, [3] Hard, [4] Mix ? 1
+
 Enter Operation Type [1] Add, [2] Sub, [3] Mul, [4] Div, [5] Mix ? 5
 
 Question [1/3]
-<div> 8 <\b><\div>
-2 + <\b>
+8
+
+2 +
 
 Your Answer: 10
+
 Right Answer :-)
 
 ...
+
 
 final Result is Pass :-)
 
